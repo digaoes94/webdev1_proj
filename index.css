@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+body nav {
+    width: 40%;
+}
+
+body aside {
+    width: 40%;
+}
+
+nav, main, aside {
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px 0px 10px 10px;
+}
+
+nav a {
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+main ul, main ol {
+    list-style: none;
+}
+
+aside {
+    padding: 10px;
+    margin: 10px 10px 0px 10px;
+}
+
+aside a {
+    text-transform: capitalize;
+}
