@@ -91,8 +91,18 @@ main section#extracurricular img {
 
 }
 
+main section#extracurricular ul {
+    margin-left: 15px;
+}
+
 main section#extracurricular ul li {
     margin: 0px 0px 5px 5px;
+    list-style-type: disc;
+}
+
+main section#extracurricular ul li ul li {
+    margin: 0px 0px 5px 5px;
+    list-style: none;
 }
 
 main section#tabela-resumo h2 {
