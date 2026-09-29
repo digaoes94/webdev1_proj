@@ -95,8 +95,13 @@ main section#extracurricular ul li {
     margin: 0px 0px 5px 5px;
 }
 
+main section#tabela-resumo h2 {
+    margin-bottom: 10px;
+}
+
 main table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 main table td, main table th {
