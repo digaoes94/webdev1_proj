@@ -68,9 +68,17 @@ main {
     scroll-behavior: smooth;
 }
 
-main h3 {
-    text-decoration: underline;
+main h1 {
     font-family: borgen_bold;
+    text-align: center;
+}
+
+main h2 {
+    font-family: borgen_bold;
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #a7854c;
 }
 
 main ul, main ol {
