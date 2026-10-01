@@ -42,6 +42,12 @@ nav {
     margin: 10px 0px 10px 10px;
 }
 
+nav img {
+    box-sizing: border-box;
+    border: 5px solid #a7854c;
+    border-radius: 10px;
+}
+
 nav a {
     display: block;
     box-sizing: border-box;
